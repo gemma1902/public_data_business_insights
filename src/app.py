@@ -5,6 +5,13 @@ import plotly.express as px
 
 import base64
 
+
+st.set_page_config(
+    page_title="Where Should You Open Your Next Business?",
+    page_icon="images/maple-syrup.png",
+    layout="wide"
+)
+
 def get_base64(file):
     with open(file, "rb") as f:
         return base64.b64encode(f.read()).decode()
