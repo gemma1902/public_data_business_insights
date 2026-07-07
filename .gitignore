@@ -219,7 +219,12 @@ __marimo__/
 
 
 data/raw/*.csv
+
+
 data/processed/*.csv
+!data/processed/opportunity_metrics_by_area.csv
+
+
 data/raw/*.geojson
 .venv/
 __pycache__/
